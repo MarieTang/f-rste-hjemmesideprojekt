@@ -1,0 +1,79 @@
+
+html {
+  height:100%;
+  box-sizing: border-box;
+   }
+  *,
+  *:before,
+  *:after{
+  box-sizing: inherit;
+/*sådan her får man footeren til at blive i bunden altid link https://codepen.io/cbracco/pen/zekgx */
+
+}
+body {
+  background-color: #e0e0e0;
+  padding: 0;
+  margin: 0;
+  font-family: ariel,sans-serif;
+  position:relative;
+  min-height: 100%;
+  padding-bottom: 2em;
+}
+
+body div {
+  margin: 1em;
+
+}
+
+img {
+width: 100%;
+
+
+}
+.top-nav {
+   margin: 0;
+   background-color: #333; /* i dette tilfælde, når der står hastag foran vil det første tal stå for rød, nr. 2 grøn og 3. blå*/
+   padding: 1em;
+}
+/* punktum står her for klasse */
+
+.top-nav li{
+
+  display: inline; /* hvis jeg vil have noget til at stå på linje, kan man bruge display. Hvis jeg skriver block
+  kommer det ned på en ny linje*/
+
+  width: 100%;
+  margin-right: 30px;
+
+}
+
+.top-nav li a {
+  text-decoration:none;
+  color: #999;
+}
+/*når teksten ikke er aktiv er den grå, men li a.active gør den hvid*/
+
+.top-nav li a.active {
+
+  color: #ffffff;
+}
+
+footer {
+  position:absolute;
+  right:0;
+  left:0;
+  bottom:0;
+  text-align: center;
+  padding: 1em;
+  font-size: 70%;
+}
+
+p span {
+  font-style: italic;
+}
+
+p.image-text {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
